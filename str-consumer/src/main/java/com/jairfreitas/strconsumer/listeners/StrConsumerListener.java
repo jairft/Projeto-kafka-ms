@@ -9,8 +9,9 @@ import org.springframework.stereotype.Component;
 public class StrConsumerListener {
 
     @StrConsumerCustomListener(groupId = "group-1")
-    public void create(String message){
+    public void create(String message) throws RuntimeException {
         log.info("CREATE ::: Receive message {}", message);
+        throw new IllegalArgumentException("EXCEPTION...");
     }
     @StrConsumerCustomListener(groupId = "group-1")
     public void log(String message){

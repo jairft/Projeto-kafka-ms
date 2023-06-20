@@ -4,5 +4,5 @@ import com.jairfreitas.paymentservice.model.Payment;
 
 public interface PaymentService {
 
-    void sendPayment(Payment payment);
+    void sendPayment(Payment payment) throws InterruptedException;
 }

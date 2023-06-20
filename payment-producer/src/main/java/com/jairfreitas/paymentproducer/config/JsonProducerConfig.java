@@ -1,4 +1,4 @@
-package com.jairfreitas.paymentservice.config;
+package com.jairfreitas.paymentproducer.config;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.producer.ProducerConfig;

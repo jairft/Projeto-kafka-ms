@@ -1,6 +1,6 @@
-package com.jairfreitas.paymentservice.controller;
+package com.jairfreitas.paymentproducer.controller;
 
-import com.jairfreitas.paymentservice.model.Payment;
+import com.jairfreitas.paymentproducer.model.Payment;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

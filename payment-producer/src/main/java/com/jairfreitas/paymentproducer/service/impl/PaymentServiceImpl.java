@@ -1,7 +1,7 @@
-package com.jairfreitas.paymentservice.service.impl;
+package com.jairfreitas.paymentproducer.service.impl;
 
-import com.jairfreitas.paymentservice.model.Payment;
-import com.jairfreitas.paymentservice.service.PaymentService;
+import com.jairfreitas.paymentproducer.model.Payment;
+import com.jairfreitas.paymentproducer.service.PaymentService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.kafka.core.KafkaTemplate;

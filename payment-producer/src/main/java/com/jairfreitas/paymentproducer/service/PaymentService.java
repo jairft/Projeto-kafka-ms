@@ -1,6 +1,6 @@
-package com.jairfreitas.paymentservice.service;
+package com.jairfreitas.paymentproducer.service;
 
-import com.jairfreitas.paymentservice.model.Payment;
+import com.jairfreitas.paymentproducer.model.Payment;
 
 public interface PaymentService {
 

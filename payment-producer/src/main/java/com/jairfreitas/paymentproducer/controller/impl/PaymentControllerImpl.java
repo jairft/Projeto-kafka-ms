@@ -1,8 +1,8 @@
-package com.jairfreitas.paymentservice.controller.impl;
+package com.jairfreitas.paymentproducer.controller.impl;
 
-import com.jairfreitas.paymentservice.controller.PaymentController;
-import com.jairfreitas.paymentservice.model.Payment;
-import com.jairfreitas.paymentservice.service.PaymentService;
+import com.jairfreitas.paymentproducer.controller.PaymentController;
+import com.jairfreitas.paymentproducer.model.Payment;
+import com.jairfreitas.paymentproducer.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

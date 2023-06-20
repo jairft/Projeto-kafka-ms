@@ -1,4 +1,4 @@
-package com.jairfreitas.paymentservice.model;
+package com.jairfreitas.paymentproducer.model;
 
 import lombok.Getter;
 

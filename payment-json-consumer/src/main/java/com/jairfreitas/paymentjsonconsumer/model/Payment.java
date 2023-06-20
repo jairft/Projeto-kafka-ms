@@ -1,9 +1,10 @@
-package com.jairfreitas.paymentproducer.model;
+package com.jairfreitas.paymentjsonconsumer.model;
 
 import lombok.Getter;
+import lombok.ToString;
 
 import java.io.Serializable;
-
+@ToString
 @Getter
 public class Payment implements Serializable {
 

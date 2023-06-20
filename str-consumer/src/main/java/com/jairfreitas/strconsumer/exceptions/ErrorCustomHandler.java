@@ -18,5 +18,5 @@ public class ErrorCustomHandler implements KafkaListenerErrorHandler {
         log.info("Message exception ::: {}", e.getMessage());
         return null;
     }
-    
+
 }
